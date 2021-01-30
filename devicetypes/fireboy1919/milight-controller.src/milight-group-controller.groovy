@@ -151,7 +151,7 @@ def httpCall(body, ipAddress, mac) {
         }
         */
         sendHubCommand(hubaction);
-        //return hubAction;
+        return hubAction;
     } catch (e) {
         log.error "Error sending: $e"
     }
